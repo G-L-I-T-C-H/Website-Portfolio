@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Portfolio</title>
+
+    <!-- bootstrap relational statemnet -->
+
+    <!-- css relational link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Javascript link  -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!-- css files relation -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- google fonts relational link -->
+
+    <!-- top-container fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;900&display=swap" rel="stylesheet">
+
+
+    <!-- font-awesome Js realional link -->
+    <script src="https://kit.fontawesome.com/093e4835cf.js" crossorigin="anonymous"></script> 
+
+
+
+</head>
+
+
+
+
+<body>
+
+    
+    <section id="title">
+
+    <div class="introduction-enclosing">
+
+        
+
+
+
+        <!-- navigation-bar -->
+        
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black;">
+            <a class="navbar-brand" href="#">Sanjith Karunakaran</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                  <a id="home-btn" class="nav-link" href="#top-container">Home</a>
+                </li>
+                <li class="nav-item active">
+                  <a id="about-btn" class="nav-link" href="#about">About Me</a>
+                </li>
+                <li class="nav-item active">
+                  <a id="services-btn" class="nav-link " href="#Services">Services</a>
+                </li>
+                <li class="nav-item active">
+                    <a id="contacts-btn" class="nav-link " href="#contacts">Contacts</a>
+                  </li>
+
+              </ul>
+            </div>
+          </nav>
+
+          <!-- intro part -->
+        <div id="top-container"> 
+            <div class="row">
+
+                <div class="col-lg-6 col-md-12 title-heading">   
+                    <div class="title-div">
+                        <h1>Hi I'm Sanjith Karunakaran</h1> 
+                        <br><!--md-12 tells when the size become smaller, convert those divs to a one which takes 100% of the colunm -->
+                        <h3>I'm a font-end developer...</h3>
+                    </div>                           <!--lg:tells when the div is large..convert that to a div with size 12-->
+                 
+                </div>
+              
+              
+                <div class="image col-lg-6 col=md-12">
+                  <img class="title-image" src="assets/Space wallpaper by CarlitoT - Download on ZEDGE™ _ 31bd.jpg" alt="title-image">
+                </div>
+              </div>
+        
+        </div>
+
+    </div>
+    
+    </section>
+    
+    <div id="about">
+        <div class="second-container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 profile-pic">
+                    <img src="assets/download (1) (1).jpg">
+                </div>
+        
+                <div class="col-lg-6 col-md-12 ">
+
+                    <div class="description-about-me"></div>
+                    <h1>About me</h1>
+        
+                    <p>Enthusiastic engineering student with a keen interest with ow things work. In this process of learning, I have understood the importance of technology and it's penetration in our lives. My motivated attitude and passion towards programming keeps me updated in various technological fields.</p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front-End</span><br>Designing Web/App interfaces</li>
+                            <li><span>App-Development</span><br>Building Android Apps</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>1/2 Month</span><br>In HTML, CSS & Javascript</li>
+                            <li><span>1 Month</span><br>In building Android Apps</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Schooling</span><br>Srimathi Sundaravalli Memorial School</li>
+                            <li><span>Undergrad</span><br>PSG Institute of Technology and Applied Research</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="Services">
+        <div class="row-heading">
+            <div class="col-lg-12 services-header">
+                <h1>Services</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="service-box col-lg-6">
+                <div class="service-enclosing-box">
+      `         <i class="fa-solid fa-code fa-beat fa-xl" style="color:#DDDDDD;"></i>
+                <br>
+                <h3>Web Design</h3>
+                <p>Creating Interactive Websites using HTML,CSS and Javascript</p>
+                </div>
+            </div>
+
+            <div class="service-box col-lg-6">
+                <div class="service-enclosing-box">
+                
+                <i class="fa-solid fa-mobile-screen fa-beat fa-xl" style="color:#DDDDDD;"></i>
+                <br>
+                <h3>Android Apps</h3>
+                <p>Created a Medicine Remainder App for the elderly</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contacts">
+        <div class="contacts-heading">
+            <h1>Contacts</h1>
+        </div>
+        
+        <div class="contacts-section">
+            <div class="row">
+                <div class="col-lg-6 contact-left">
+                    <h2>Contact Me</h2>
+                    <p><i class="fa-solid fa-paper-plane fa-lg"></i> Sanjith@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume fa-lg"></i> +91 1234567890</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                        <a href="https://www.linkedin.com/in/sanjith-k-713834250/"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 contact-right">
+                    <form>
+                       <input  type="text" name="Name" placeholder="Your Name" required>
+                       <input type="email" name="email" placeholder="Your Email" required>
+                       <textarea name="Message" id="6" placeholder="Your Message"></textarea>
+                       <button type="submit" class="btn-btn2">Submit</button>
+
+                    </form>
+
+
+                </div>
+                
+            </div>
+            <div class="copyright">
+                <p>Copyright © Sanjith Karunakaran. Made with  <i class="fa-solid fa-heart fa-beat" style="color: #df0c2b;"></i></p>
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+
+    
+
+
+<script src="index.js"></script>      
+
+</body>
+</html>
